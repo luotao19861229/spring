@@ -129,7 +129,7 @@ basePackage 属性是让你为映射器接口文件设置基本的包路径。
 
       <p>
 MapperScannerConfigurer 属性不支持使用了 PropertyPlaceholderConfigurer 的属
-性替换,因为会在 Spring 其中之前来它加载。但是,你可以使用 PropertiesFactoryBean
+性替换,因为会在 Spring 启动之前来它加载。但是,你可以使用 PropertiesFactoryBean
 和 SpEL 表达式来作为替代。
       </p>
 
